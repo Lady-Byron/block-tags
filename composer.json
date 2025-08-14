@@ -1,0 +1,30 @@
+{
+  "name": "ladybyron/block-tags",
+  "description": "Companion for FoF Follow Tags: hide discussions/posts with user-hidden tags from ALL pages.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "keywords": ["flarum", "extension", "tags", "follow-tags", "visibility", "privacy"],
+  "require": {
+    "php": ">=8.0",
+    "flarum/core": "^1.8",
+    "fof/follow-tags": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LadyByron\\BlockTags\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Block Tags (Hide Everywhere)",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-eye-slash",
+        "backgroundColor": "#222",
+        "color": "#fff"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
