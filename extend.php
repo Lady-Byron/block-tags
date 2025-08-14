@@ -20,9 +20,4 @@ return [
 
     (new Extend\SimpleFlarumSearch(DiscussionSearcher::class))
         ->addSearchMutator(\LadyByron\BlockTags\Search\HideHiddenTagsSearchMutator::class),
-
-    // 前端（forum）资源
-    (new Extend\Frontend('forum'))
-        ->js(__DIR__.'/js/dist/forum.js'),
-    (new Extend\Locales(__DIR__.'/resources/locale')),
 ];
