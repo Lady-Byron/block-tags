@@ -1,5 +1,5 @@
 {
-  "name": "ladybyron/block-tags",
+  "name": "lady-byron/block-tags",
   "description": "Companion for FoF Follow Tags: hide discussions/posts with user-hidden tags from ALL pages.",
   "type": "flarum-extension",
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "Block Tags (Hide Everywhere)",
+      "title": "Block Tags",
       "category": "feature",
       "icon": {
         "name": "fas fa-eye-slash",
